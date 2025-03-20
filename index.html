@@ -14,60 +14,92 @@
     <header class="banner d-flex align-items-center justify-content-center text-center">
         <div class="banner-content">
             <h1 class="display-3 fw-bold">Diventracker</h1>
-            <p class="lead">Optimiza el control, seguimiento y reabastecimiento de tus productos con nuestro software especializado.</p>
+            <p class="lead">Optimiza el control, seguimiento y reabastecimiento de tus productos con nuestro software
+                especializado.</p>
             <p class="fw-bold text-warning">¡Recibe alertas inmediatas cuando tu inventario esté por agotarse!</p>
             <a href="#contacto" class="btn btn-outline-light mt-3">Solicitar Demostración</a>
         </div>
     </header>
 
-    <section class="container my-5 text-center">
-        <div class="row g-4">
-            <div class="col-md-4 p-4 bg-success text-white rounded-4">
-                <h3>📊 Reportes en Tiempo Real</h3>
-                <p>Analiza tu inventario con reportes detallados para una mejor toma de decisiones.</p>
+    <div class="container my-5 w-75">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <div class="col-md-4 p-4 bg-dark text-white rounded-4">
-                <h3>⏰ Alarma de Stock Bajo</h3>
-                <p>Recibe alertas inmediatas cuando un producto esté por agotarse.</p>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../ZontPizzaLove1.github.io/imagenes/Captura de pantalla 2025-03-18 234124.png"
+                        class="d-block w-100 rounded-4" alt="Reporte en Tiempo Real">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-4 p-2">
+                        <h5>📦 Gestión Eficiente</h5>
+                        <p>Controla fácilmente el inventario de tu empresa con una interfaz intuitiva.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../ZontPizzaLove1.github.io/imagenes/Captura de pantalla 2025-03-18 234315.png"
+                        class="d-block w-100 rounded-4" alt="Alarma de Stock Bajo">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-4 p-2">
+                        <h5>⏰ Alarma de Stock Bajo</h5>
+                        <p>Recibe alertas inmediatas cuando un producto esté por agotarse.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../ZontPizzaLove1.github.io/imagenes/Captura de pantalla 2025-03-18 234535.png"
+                        class="d-block w-100 rounded-4" alt="Gestión Eficiente">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-4 p-2">
+                        <h5>📊 Reportes en Tiempo Real</h5>
+                        <p>Analiza tu inventario con reportes detallados para una mejor toma de decisiones.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 p-4 bg-secondary text-white rounded-4">
-                <h3>📦 Gestión Eficiente</h3>
-                <p>Controla fácilmente el inventario de tu empresa con una interfaz intuitiva.</p>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
-    </section>
-
-    <section class="container text-center my-5">
-        <h2 class="display-4">¿Por qué elegir Diventracker?</h2>
-        <ul class="list-unstyled mt-4">
-            <li>✅ Alertas de stock bajo</li>
-            <li>📈 Reportes en tiempo real</li>
-            <li>🖥️ Interfaz sencilla e intuitiva</li>
-            <li>🚀 Gestión eficiente del inventario</li>
-        </ul>
-    </section>
-
-    <section id="contacto" class="container my-5 py-4 bg-light rounded-4">
-        <h2 class="text-center mb-4">Contáctanos</h2>
-        <form class="row g-3">
-            <div class="col-md-6">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" required>
-            </div>
-            <div class="col-md-6">
-                <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="col-12">
-                <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="4" required></textarea>
-            </div>
-            <div class="col-12 text-center">
-                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-            </div>
-        </form>
-    </section>
-
+    </div>
+    <div class="container">
+        <section class="container text-center my-5">
+            <h2 class="display-4">¿Por qué elegir Diventracker?</h2>
+            <ul class="list-unstyled mt-4">
+                <li>✅ Alertas de stock bajo</li>
+                <li>📈 Reportes en tiempo real</li>
+                <li>🖥️ Interfaz sencilla e intuitiva</li>
+                <li>🚀 Gestión eficiente del inventario</li>
+            </ul>
+        </section>
+    </div>
+    <div>
+        <section class="container my-5 py-4 bg-dark rounded-4 contacto">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </div>
+            </form>
+        </section>
+    </div>
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2025 Diventracker. Todos los derechos reservados.</p>
     </footer>
